@@ -1,0 +1,280 @@
+*{
+  margin:0px;
+  border:border-box;
+  font-family: arial;
+}
+
+
+
+
+.navbar{
+  height:60px;
+  background-color:#0f1111;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+  
+}
+.nav-logo{
+  height:50px;
+  width:140px;
+}
+.logo{
+  height:50px;
+  width: 140px;
+  background-image: url("image\ 2.png");
+  background-size: cover;
+}
+.border{
+  border: 5px solid transparent;
+
+}
+.border:hover{
+  border:2px solid white;
+  padding: 5px;
+}
+/* box2  */
+.adress-1{
+  color:#cccc;
+  font-size:12px;
+  margin-left:12px;
+}
+.adress-2{
+  color:#ffff;
+  font-size:14px;
+  margin-left: 6px;
+
+}
+.nav-icon{
+  display:flex;
+}
+.nav-search{
+  display:flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width:625px;
+  height:40px;
+  border-radius:8px;
+}
+.nav-search:hover{
+  border:2px solid #ff6f00
+}
+select{
+  background-color: #f3f3f3;
+  width:50px;
+  text-align:center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border:none;
+}
+input{
+  width:100%;
+  font-size:15px;
+  border:none;
+}
+.search-icon{
+  width:50px;
+  display: flex;
+  background-color:#ff6f00;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+span{
+  font-size:12px;
+}
+p2{
+  font-size: 14px;
+  font-weight: 700;
+}
+.box5 i{
+  font-size: 35px;
+}
+.nav-cart{
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+.panel{
+  height:40px;
+  background-color:#222F3D;
+  display:flex;
+  justify-content: space-evenly;
+  color:white;
+  align-items:center;
+}
+.panel-ops p{
+  display:inline;
+  font-size: 14px;
+  margin-left:35px;
+}
+.panel-ops{
+  width:70%;
+}
+.panel-deals{
+  font-size:15px;
+  font-weight:700;
+}
+.panel-all{
+  font-size:15px;
+  font-weight:700;
+}
+/* hero secttion */
+.hero-section{
+  background-image: url("image4.jpg");
+  background-size: cover;
+  display:flex;
+  height:400px;
+  justify-content: center;
+  align-items:flex-end;
+}
+.hero-message{
+  background-color: white;
+  color:black;
+  font-size:14px;
+  width:80%;
+  display: flex;
+ height:40px;
+ align-items:center ;
+ justify-content: center;
+ margin-bottom: 30px;
+}
+.hero-message a{
+  color: #2162a1;
+
+}
+/* image section */
+.box{
+ border:2px solid black;
+ height:500px;
+ width:23%;
+ background-color: white;
+ padding: 10px,2.5px;
+ margin:15px;
+ flex:0 0 20%;
+ 
+}
+.image-section{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #b8f50096;
+}
+h2{
+  width:80%;
+  color:black;
+  font-size: 35px;
+  font-weight:700;
+text-align: center;
+margin-top: 15px;
+}
+.image1{
+  height:380px;
+  width:80%;
+  background-image: url("image\ 3.jpg");
+  background-size: cover;
+ margin-left:32px;
+ margin-top: 20px;
+}
+ a{
+  color:blue;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ top:5px;
+
+}
+.image2{
+  height:380px;
+  width:80%;
+  background-image: url("watch1.jpg");
+  background-size: cover;
+ margin-left:32px;
+ margin-top: 20px;
+}
+.image3{
+  height:380px;
+  width:80%;
+  background-image: url("headphone.jpg");
+  background-size: cover;
+ margin-left:32px;
+ margin-top: 20px;
+}
+.image4{
+  height:380px;
+  width:80%;
+  background-image: url("phone.jpg");
+  background-size: cover;
+ margin-left:32px;
+ margin-top: 20px;
+}
+.image5{
+  height:380px;
+  width:80%;
+  background-image: url("clothes.jpg");
+  background-size: auto;
+ margin-left:32px;
+ margin-top: 20px;
+}
+.image6{
+  height:380px;
+  width:80%;
+  background-image: url("gym.jpg");
+  background-size: auto;
+ margin-left:32px;
+ margin-top: 20px;
+}
+.image7{
+  height:380px;
+  width:80%;
+  background-image: url("action\ figures.jpg");
+  background-size: contain;
+ margin-left:32px;
+ margin-top: 20px;
+}
+.image8{
+  height:380px;
+  width:80%;
+  background-image: url("utensils.jpg");
+  background-size: contain;
+ margin-left:32px;
+ margin-top: 20px;
+}
+/* footer */
+.foot-panel{
+  height:50px;
+  font-size:13px;
+  background-color: #37475a;
+  color:white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+footer{
+  margin-top: 15px;
+}
+.foot-panel-2{
+  background-color: #222F3D;
+  color:white;
+  height:300px;
+  display:flex;
+  justify-content: space-evenly;
+}
+.foot-panel-2 a{
+  color: #dddddd;
+}
+ul a{
+  display: block;
+  font-size: 0.85rem;
+  margin-top:15px;
+}
+.foot-panel-2 p{
+  font-weight: 800;
+}
+.panel-foot{
+  border-top: 0.5px,solid white;
+  height:70px;
+  background-color: #222F3D;
+}
